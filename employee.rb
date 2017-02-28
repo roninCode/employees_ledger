@@ -21,3 +21,30 @@ employee2 = {
 
   p "#{employee1['first_name']} #{employee1['last_name']} makes $#{employee1['salary']} per year."
   p "#{employee2['first_name']} #{employee2['last_name']} makes $#{employee2['salary']} per year."
+
+
+
+# HASH with symbols
+  # Traditional Syntax
+employee1 = {
+  :first_name => "Manila", 
+  :last_name => "Campos", 
+  :salary => 80000, 
+  :active_status => true}
+  # New Syntax ---- fancy js syntax
+employee2 = {
+  first_name: "Danilo", 
+  last_name: "Carter", 
+  salary: 70000, 
+  active_status: false}
+
+  p "#{employee1[:first_name]} #{employee1[:last_name]} makes $#{employee1[:salary]} per year."
+  p "#{employee2[:first_name]} #{employee2[:last_name]} makes $#{employee2[:salary]} per year."
+
+
+
+
+
+
+
+
